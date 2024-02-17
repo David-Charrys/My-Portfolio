@@ -1,0 +1,131 @@
+body {
+    background-image: url(Elementos/Imagenes/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'Onest Medium';
+    src: url();
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url(Elementos/Fuentes/CascadiaCodePL-Regular.woff2);
+}
+
+.header {
+    width: 900px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#namebox {
+    font-family: Onest, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+#namebox2 {
+    font-family: 'Cascadia Code';
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    color: #ffffff;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiktok {
+    box-sizing: border-box;
+    width: 105px;
+    padding: 20px;
+}
+
+.tiktok:hover {
+    background-color: #fe2c55;
+    border-radius: 25%;
+    width: 100px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.tiktok:active {
+    padding: 20px;
+}
+
+.instagram {
+    box-sizing: border-box;
+    width: 105px;
+    padding: 20px;
+}
+
+.instagram:hover {
+    background: radial-gradient(
+        circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515ecf);
+    border-radius: 25%;
+    width: 100px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.instagram:active {
+    padding: 20px;
+}
+
+.github {
+    box-sizing: border-box;
+    width: 105px;
+    padding: 20px;
+}
+
+.github:hover {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.github:active {
+    padding: 20px;
+}
+
+.twitter {
+    box-sizing: border-box;
+    width: 105px;
+    padding: 20px;
+}
+
+.twitter:hover {
+    background-color: #000000;
+    border-radius: 25%;
+    width: 100px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.twitter:active {
+    padding: 20px;
+}
